@@ -304,7 +304,6 @@ include "connection.php";
 
       </div>
     </section>
-
     <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
 
