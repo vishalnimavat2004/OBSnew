@@ -116,7 +116,7 @@ include "connection.php";
               <li><i class="bi bi-check-circle"></i> Validate Your Documnet and Mobile Number.</li>
               <li><i class="bi bi-check-circle"></i> Create Username and Password.</li>
             </ul>
-            <a href="onlineBanking.html" class="read-more">Read More<i class="bi bi-long-arrow-right"></i></a>
+            <a href="pages/onlineBanking.php" class="read-more">Read More<i class="bi bi-long-arrow-right"></i></a>
           </div>
         </div>
 
@@ -403,7 +403,7 @@ include "connection.php";
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
               <p>
-                <?php echo ADDRESS ?>
+                Gujrat, India 360003
               </p>
             </div>
           </div>
@@ -413,7 +413,7 @@ include "connection.php";
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
               <p>
-                <?php echo EMAIL ?>
+                vishalnimavat2004@gmail.com
               </p>
             </div>
           </div>
@@ -423,46 +423,14 @@ include "connection.php";
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p>
-                <?php echo MOBILENO ?>
+                +91 6355830680
               </p>
             </div>
           </div>
 
         </div>
 
-        <div class="row">
-
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="<?php echo LOCATION_CORDINATE ?>" frameborder="0"
-              style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="contact.php" method="POST">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"
-                  required></textarea>
-              </div>
-              <div hidden id="status"></div>
-              <div hidden id="error-message" class="alert alert-danger mt-3"></div>
-              <div hidden id="success-message" class="alert alert-success mt-3"></div>
-              <div class="text-center"><button class="btn-custo mt-3" id="submit" name="submit">Send Message <i
-                    class='bx bxs-send'></i></button></div>
-            </form>
-          </div>
-
-        </div>
+        
 
       </div>
     </section><!-- End Contact Section -->
@@ -481,11 +449,11 @@ include "connection.php";
               <?php echo BANKNAME ?>
             </h3>
             <p>
-              <?php echo ADDRESS ?> <br>
+              <?php echo 'Gujrat, india 360003' ?> <br>
               <strong>Phone:</strong>
-              <?php echo MOBILENO ?><br>
-              <strong>Email:</strong>
-              <?php echo EMAIL ?><br>
+              <?php echo '6355830680' ?><br>
+              <strong>Email: vishalnimavat2004@gmail.com</strong>
+              <?php echo '' ?><br>
             </p>
           </div>
 
