@@ -17,9 +17,9 @@ include "header.php" ?>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box iconbox-green">
                     <div class="icon" style="width: 160px; height: 160px;">
-                        <img src="vishal.jpg" class="img-round" alt="">
+                        <img src="" class="img-round" alt="">
                     </div>
-                    <h4><a href="">Nimavat Vishal</a></h4>
+                    <h4><a href="">Kamariya Jenish</a></h4>
                     <p class="mt-1"> <strong>(Designer & Developer)</strong></p>
                     <p class="mt-3">The Man Who Has Power of Imagination, He Has a Wings</p>
 

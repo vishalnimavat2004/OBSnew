@@ -403,7 +403,7 @@ include "connection.php";
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
               <p>
-                Gujrat, India 360003
+                <?php echo ADDRESS ?>
               </p>
             </div>
           </div>
@@ -413,7 +413,7 @@ include "connection.php";
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
               <p>
-                vishalnimavat2004@gmail.com
+                <?php echo EMAIL ?>
               </p>
             </div>
           </div>
@@ -423,7 +423,7 @@ include "connection.php";
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p>
-                +91 6355830680
+                <?php echo MOBILENO ?>
               </p>
             </div>
           </div>
@@ -431,8 +431,6 @@ include "connection.php";
         </div>
 
         
-
-      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -449,11 +447,11 @@ include "connection.php";
               <?php echo BANKNAME ?>
             </h3>
             <p>
-              <?php echo 'Gujrat, india 360003' ?> <br>
+              <?php echo ADDRESS ?> <br>
               <strong>Phone:</strong>
-              <?php echo '6355830680' ?><br>
-              <strong>Email: vishalnimavat2004@gmail.com</strong>
-              <?php echo '' ?><br>
+              <?php echo MOBILENO ?><br>
+              <strong>Email:</strong>
+              <?php echo EMAIL ?><br>
             </p>
           </div>
 
